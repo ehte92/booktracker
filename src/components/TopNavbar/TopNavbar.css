@@ -1,0 +1,25 @@
+.navigation {
+    background: linear-gradient(to left, rgb(24, 27, 27), rgb(74, 40, 40));
+    box-shadow: 0 10px 20px rgba(32, 32, 32, 0.77);
+}
+
+.nav-link {
+    padding: 7.5px 20px;
+    transition: 500ms;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #493e6d;
+    border-radius: 2px;
+}
+
+
+a {
+    color: var(--link-color);
+}
+
+.nav-active {
+    color: #FF00FF;
+    background: green;
+}
